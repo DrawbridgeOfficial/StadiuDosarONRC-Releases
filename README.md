@@ -30,14 +30,15 @@ Aplicație desktop pentru monitorizarea automată a stadiului dosarelor de pe po
 | Fișier | Descriere | Dimensiune |
 |--------|-----------|------------|
 | **[StadiuDosarONRC.exe](https://github.com/DrawbridgeOfficial/StadiuDosarONRC-Releases/releases/download/v1.0.0/StadiuDosarONRC.exe)** | Versiune portabilă — dublu-click și rulează | ~62 MB |
-| **[Setup_StadiuDosarONRC.exe](https://github.com/DrawbridgeOfficial/StadiuDosarONRC-Releases/releases/download/v1.0.0/Setup_StadiuDosarONRC.exe)** | Installer — wizard de instalare, shortcut-uri | ~63 MB |
+
+> **Notă:** Aplicația este portabilă — nu necesită instalare. Descarcă fișierul `.exe`, rulează-l și gata.
 
 ---
 
 ## 🖥️ Cerințe de sistem
 
 - **Sistem de operare:** Windows 10 / Windows 11 (64-bit)
-- **Browser:** Google Chrome trebuie să fie instalat (aplicația folosește Selenium pentru a控lă automat browserul)
+- **Browser:** Google Chrome trebuie să fie instalat (aplicația folosește Selenium pentru a controla automat browserul)
 - **Cont:** Ai nevoie de un cont activ pe [myportal.onrc.ro](https://myportal.onrc.ro)
 
 ---
@@ -45,7 +46,7 @@ Aplicație desktop pentru monitorizarea automată a stadiului dosarelor de pe po
 ## 🚀 Cum se utilizează
 
 ### Prima utilizare:
-1. Rulează `StadiuDosarONRC.exe` (sau instalează prin Setup)
+1. Descarcă și rulează `StadiuDosarONRC.exe`
 2. Click pe **Setări** → introdu utilizatorul și parola de la contul ONRC → **Salvează**
    (Parola se salvează criptat, doar pe calculatorul tău)
 3. Click pe **+ Adaugă dosar** pentru fiecare dosar pe care vrei să-l monitorizezi
@@ -82,7 +83,7 @@ Aplicație desktop pentru monitorizarea automată a stadiului dosarelor de pe po
 
 ### Drepturile tale:
 - Toate datele rămân exclusiv pe calculatorul tău
-- La dezinstalare, poți șterge și folderul `data/` pentru eliminarea completă a datelor
+- Poți șterge oricând fișierul `.exe` și folderul `data/` pentru eliminarea completă a datelor
 - Aplicația nu necesită cont creat sau înregistrare
 
 ---
@@ -91,7 +92,7 @@ Aplicație desktop pentru monitorizarea automată a stadiului dosarelor de pe po
 
 ### SOFTWARE GRATUIT — Termeni și condiții
 
-Prin instalarea și utilizarea acestei aplicații, confirmați că ați citit, înțeles și acceptați termenii de mai jos.
+Prin descărcarea și utilizarea acestei aplicații, confirmați că ați citit, înțeles și acceptați termenii de mai jos.
 
 **1. Licență de utilizare**
 Aceasta este o licență de utilizare gratuită (freeware). Vi se acordă dreptul neexclusiv, netransferabil și revocabil de a utiliza Aplicația pe un număr nelimitat de dispozitive, în scop personal sau comercial.
@@ -110,7 +111,7 @@ Aplicația este furnizată „CA ATARE", FĂRĂ GARANȚII de orice fel. Dezvolta
 Utilizatorul este responsabil să verifice corectitudinea informațiilor extrase din portalul ONRC.
 
 **4. Date cu caracter personal**
-Aplicația stochează date de autentificare criptat, exclusiv pe dispozitivul dumneavoastră. Aceste NU sunt transmise către dezvoltator sau terți.
+Aplicația stochează date de autentificare criptat, exclusiv pe dispozitivul dumneavoastră. Acestea NU sunt transmise către dezvoltator sau terți.
 
 **5. Lege aplicabilă**
 Acest acord este guvernat de legile României.
@@ -126,7 +127,7 @@ Verifică utilizatorul și parola în Setări. Dacă portalul ONRC a schimbat st
 Asigură-te că dosarul există în portal și că datele introduse (număr, an, județ) sunt corecte. Încearcă un click pe „Verifică acum".
 
 **Cumdezinstalez aplicația?**
-Folosește „Dezinstalare" din Meniul Start (dacă ai folosit installerul) sau șterge pur și simplu fișierul `StadiuDosarONRC.exe` și folderul `data/`.
+Șterge fișierul `StadiuDosarONRC.exe` și, opțional, folderul `data/` din directorul unde se află aplicația.
 
 ---
 
